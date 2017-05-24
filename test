@@ -1,3 +1,3 @@
 FROM nginx
-RUN mkdir -p /tmp/docker-build-git848430276/Dockerfile
-ADD /root/2.6.36.tar.gz  /tmp
+CMD ["mkdir -p /tmp/docker-build-git848430276/Dockerfile"]
+ADD /root/2.6.36.tar.gz  /tmp/docker-build-git848430276/Dockerfile
