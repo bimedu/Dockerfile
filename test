@@ -1,2 +1,1 @@
 FROM nginx
-CMD ["mkdir -p /tmp/docker-build-git848430276/Dockerfile"]
