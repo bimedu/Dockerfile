@@ -1,2 +1,2 @@
 FROM nginx
-COPY /root/2.6.36.tar.gz  /tmp
+ADD /root/2.6.36.tar.gz  /tmp
